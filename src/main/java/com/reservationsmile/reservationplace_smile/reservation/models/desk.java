@@ -18,5 +18,6 @@ public class desk {
     int floor;
     @Column(nullable = false, unique = true)
     int desknumber;
+    @Column(nullable = false)
     boolean available;
 }
